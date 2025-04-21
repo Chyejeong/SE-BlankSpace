@@ -20,8 +20,13 @@ BE : https://github.com/Chyejeong/BlankSpace-Shopping-mall-be<br>
 - **관리자 페이지 (상품 등록, 수정, 삭제)**
 
 ---
+## 3. 개발 기간
 
-## 3. 팀원 소개
+2024년 9월 3일 ~ 2024년 12월 7일
+
+---
+
+## 4. 팀원 소개
 
 | 학번     | 이름   | 이메일                   | 역할     | 전공          |
 |----------|--------|--------------------------|----------|---------------|
@@ -33,13 +38,13 @@ BE : https://github.com/Chyejeong/BlankSpace-Shopping-mall-be<br>
 
 ---
 
-## 4. State Machine Diagram
+## 5. State Machine Diagram
 
 아래는 웹쇼핑몰 사이트의 클라이언트 상태 다이어그램입니다.  
 사이트 내 각 페이지의 전환 관계를 나타낸 것으로, 사용자의 로그인 상태 및 권한에 따라 접근 가능한 페이지가 구분됩니다.
 
 ![State Machine Diagram](./assets/image25.png)  
-<그림 5-1> Client state machine diagram
+<그림 1> Client state machine diagram
 
 - 각 State는 웹 사이트의 페이지 하나를 의미하며, 하나의 State에서 다른 State로 이동하는 것은 페이지 간 전환을 의미합니다.
 - 본 다이어그램은 로그인 여부를 기준으로 **총 4개의 Composite State**로 구성되어 있습니다.  
@@ -50,6 +55,13 @@ BE : https://github.com/Chyejeong/BlankSpace-Shopping-mall-be<br>
 - 본 다이어그램은 **클라이언트 측의 동작만을 나타낸 것**으로, 실제 서버와의 통신이나 트랜잭션은 포함되지 않았습니다.  
   따라서 본 다이어그램이 제대로 작동하려면 **서버와의 연결**이 반드시 필요합니다.
 
+## 6. User Interface Prototype
+
+### 6-1. User
+
+![Landing Page](./assets/image01.png)  
+<그림 6-1> 웹 쇼핑몰 첫 화면 (랜딩 페이지)
+웹 쇼핑몰의 **첫 화면인 랜딩 페이지**입니다.  
 
 
 
