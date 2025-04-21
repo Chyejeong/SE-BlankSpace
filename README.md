@@ -43,7 +43,7 @@ BE : https://github.com/Chyejeong/BlankSpace-Shopping-mall-be<br>
 아래는 웹쇼핑몰 사이트의 클라이언트 상태 다이어그램입니다.  
 사이트 내 각 페이지의 전환 관계를 나타낸 것으로, 사용자의 로그인 상태 및 권한에 따라 접근 가능한 페이지가 구분됩니다.
 
-![State Machine Diagram](./assets/image25.png"width="700"/)  
+<img src="./assets/image25.png" width="700"/>
 <그림 1> Client state machine diagram
 
 - 각 State는 웹 사이트의 페이지 하나를 의미하며, 하나의 State에서 다른 State로 이동하는 것은 페이지 간 전환을 의미합니다.
